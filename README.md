@@ -49,3 +49,4 @@ docker-compose up --build
 10. Final safety check + PDF generation
 # resume
 # resume_builder
+# resume
