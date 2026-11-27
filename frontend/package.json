@@ -1,0 +1,38 @@
+{
+ "name": "ai-resume-frontend",
+ "version": "1.0.0",
+ "private": true,
+ "scripts": {
+ "dev": "next dev -p 3001",
+ "build": "next build",
+ "start": "next start -p 3001",
+ "lint": "next lint"
+ },
+ "dependencies": {
+ "next": "^14.2.15",
+ "react": "^18.3.1",
+ "react-dom": "^18.3.1",
+ "typescript": "^5.6.3",
+ "@types/node": "^22.5.0",
+ "@types/react": "^18.3.3",
+ "@types/react-dom": "^18.3.0",
+ "lucide-react": "^0.468.0",
+ "axios": "^1.7.5",
+ "react-dropzone": "^14.3.5",
+ "react-hot-toast": "^2.4.1",
+ "framer-motion": "^11.10.0",
+ "zustand": "^5.0.2",
+ "tailwind-merge": "^2.5.2",
+ "clsx": "^2.1.1",
+ "pdfjs-dist": "^3.11.174",
+ "react-pdf": "^7.7.1",
+ "file-saver": "^2.0.5"
+ },
+ "devDependencies": {
+ "tailwindcss": "^3.4.13",
+ "postcss": "^8.4.45",
+ "autoprefixer": "^10.4.20",
+ "eslint": "^8.57.0",
+ "eslint-config-next": "^14.2.15"
+ }
+}
